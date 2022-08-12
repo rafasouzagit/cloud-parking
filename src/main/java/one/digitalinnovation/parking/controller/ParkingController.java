@@ -26,6 +26,7 @@ public class ParkingController {
         this.parkingMapper = parkingMapper;
     }
 
+
     @GetMapping
     @ApiOperation("Find all parkings")
     public ResponseEntity<List<ParkingDTO>> findAll(){
